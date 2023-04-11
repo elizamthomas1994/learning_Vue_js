@@ -3,9 +3,9 @@ const app = Vue.createApp({
     return {
       showBooks: true,
       books: [
-        { title: 'name of the wind', author: 'patrick rothfuss' },
-        { title: 'the way of kings', author: 'brandon sanderson' },
-        { title: 'the final empire', author: 'brandon sanderson' },
+        { title: 'name of the wind', author: 'patrick rothfuss', img: 'images/1.jpeg', isFav: true },
+        { title: 'the way of kings', author: 'brandon sanderson', img: 'images/2.jpeg', isFav: false },
+        { title: 'the final empire', author: 'brandon sanderson', img: 'images/3.jpeg', isFav: true },
       ]
     }
   },
